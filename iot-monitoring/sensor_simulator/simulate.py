@@ -2,7 +2,7 @@ import asyncio
 import random
 import aiohttp
 
-URL = "https://a3mongo.onrender.com/"
+URL = "https://a3mongo.onrender.com/data"
 
 async def send_data(sensor_id):
     while True:
